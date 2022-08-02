@@ -1,9 +1,6 @@
 <template>
-  <Tutorial />
+  <div class="container">
+    <hero />
+    <large-card />
+  </div>
 </template>
-
-<script>
-export default {
-  name: 'IndexPage',
-}
-</script>
