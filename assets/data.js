@@ -105,4 +105,50 @@ export const smallCardSections = [
 			},
 		],
 	},
+	{
+		id: 2,
+		title: 'fire extinguishers in japan',
+		cards: [
+			{
+				id: 11,
+				image: 'extinguisher.jpg',
+			},
+			{
+				id: 12,
+				image: 'extinguisher.jpg',
+			},
+			{
+				id: 13,
+				image: 'extinguisher.jpg',
+			},
+			{
+				id: 14,
+				image: 'extinguisher.jpg',
+			},
+			{
+				id: 15,
+				image: 'extinguisher.jpg',
+			},
+			{
+				id: 16,
+				image: 'extinguisher.jpg',
+			},
+			{
+				id: 17,
+				image: 'extinguisher.jpg',
+			},
+			{
+				id: 18,
+				image: 'extinguisher.jpg',
+			},
+			{
+				id: 19,
+				image: 'extinguisher.jpg',
+			},
+			{
+				id: 20,
+				image: 'extinguisher.jpg',
+			},
+		],
+	},
 ]

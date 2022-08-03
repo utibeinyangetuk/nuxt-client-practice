@@ -1,8 +1,8 @@
 <template>
 	<div class="container">
-		<h4 class="header">{{ cardsSection.title }}</h4>
+		<h4 class="header">{{ props.cardsSection.title }}</h4>
 		<p class="snippet">
-			{{ cardsSection.snippet }}
+			{{ props.cardsSection.snippet }}
 		</p>
 		<div class="cards-container">
 			<LargeCard

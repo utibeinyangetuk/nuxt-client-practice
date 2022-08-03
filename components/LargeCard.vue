@@ -6,9 +6,9 @@
 			alt="#fire extinguisher"
 		/>
 		<h3 class="header">
-			{{ card.title }}
+			{{ props.card.title }}
 		</h3>
-		<p class="snippet">{{ card.snippet }}</p>
+		<p class="snippet">{{ props.card.snippet }}</p>
 	</div>
 </template>
 

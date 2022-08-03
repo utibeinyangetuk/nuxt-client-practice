@@ -6,7 +6,11 @@
 			:key="cardInfo.id"
 			:cardsSection="cardInfo"
 		/>
-		<smallCardDisplay />
+		<smallCardDisplay
+			v-for="cardInfo in smallCardSection"
+			:key="cardInfo.id"
+			:cardsSection="cardInfo"
+		/>
 	</div>
 </template>
 
