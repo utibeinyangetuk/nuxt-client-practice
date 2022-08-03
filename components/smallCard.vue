@@ -16,11 +16,12 @@ const props = defineProps(['card'])
 .card-container {
 	border: 1px solid;
 	padding: 10px;
-	width: 400px;
 	border-radius: 10px;
+	width: 400px;
 }
 
 .image {
+	height: 100%;
 	width: 100%;
 }
 </style>

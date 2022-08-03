@@ -16,12 +16,18 @@ const props = defineProps(['cardsSection'])
 </script>
 
 <style scoped>
-.card-container{
-	display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		gap: 10px;
-		grid-auto-rows: minmax(100px, auto);
-
+.card-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	flex-wrap: wrap;
 }
 
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
 </style>

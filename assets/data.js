@@ -99,10 +99,6 @@ export const smallCardSections = [
 				id: 9,
 				image: 'extinguisher.jpg',
 			},
-			{
-				id: 10,
-				image: 'extinguisher.jpg',
-			},
 		],
 	},
 	{
@@ -143,10 +139,6 @@ export const smallCardSections = [
 			},
 			{
 				id: 19,
-				image: 'extinguisher.jpg',
-			},
-			{
-				id: 20,
 				image: 'extinguisher.jpg',
 			},
 		],

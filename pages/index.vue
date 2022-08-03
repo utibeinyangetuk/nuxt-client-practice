@@ -1,5 +1,6 @@
 <template>
 	<div class="container">
+  <navbar />
 		<hero />
 		<largeCardDisplay
 			v-for="cardInfo in LargeCardInfo"
@@ -15,8 +16,8 @@
 </template>
 
 <script setup>
-	import { ref } from 'vue'
-	import { largeCardSections, smallCardSections } from '@/assets/data'
-	const LargeCardInfo = ref(largeCardSections)
-	const smallCardSection = ref(smallCardSections)
+import { largeCardSections, smallCardSections } from '@/assets/data'
+import { ref } from 'vue'
+const LargeCardInfo = ref(largeCardSections)
+const smallCardSection = ref(smallCardSections)
 </script>
