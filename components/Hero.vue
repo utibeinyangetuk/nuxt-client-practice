@@ -3,10 +3,7 @@
     <div class="wrapper">
       <h1 class="header">find your fire extinguisher</h1>
       <p class="snippets">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione non sed
-        iure officiis. Animi corrupti, fugit soluta voluptas quas impedit
-        voluptates. Repudiandae quod atque, hic aspernatur voluptatem vitae
-        distinctio iure?
+        {{ data1 }}
       </p>
       <button>start looking</button>
     </div>
@@ -14,7 +11,19 @@
   </div>
 </template>
 
-<script setup></script>
+ <script>
+import { mapState } from 'vuex'
+
+export default {
+  computed: {
+    ...mapState(['data1', 'data2'])
+  }
+}
+</script>
+
+
+
+
 <style scoped>
 .container {
   display: flex;
