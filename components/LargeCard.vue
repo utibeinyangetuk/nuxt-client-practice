@@ -2,7 +2,7 @@
 	<div class="card">
 		<img
 			class="image"
-			:src="require(`@/assets/${card.image}`)"
+			:src="require(`@/assets/images/${card.image}`)"
 			alt="#fire extinguisher"
 		/>
 		<h3 class="header">

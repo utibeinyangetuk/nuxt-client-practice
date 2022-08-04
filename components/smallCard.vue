@@ -2,7 +2,7 @@
 	<div class="card-container">
 		<img
 			class="image"
-			:src="require(`@/assets/${card.image}`)"
+			:src="require(`@/assets/images/${card.image}`)"
 			alt="extinguisher image"
 		/>
 	</div>
