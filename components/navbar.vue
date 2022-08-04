@@ -1,16 +1,20 @@
 <template>
   <div class="container">
     <ul>
-      <li>home</li>
-      <li>about</li>
-      <li>products</li>
+      <li>
+        <nuxt-link to="/">home</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="/my-items">my-items</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="/products">products</nuxt-link>
+      </li>
     </ul>
   </div>
 </template>
 
-<script setup>
-
-</script>
+<script setup></script>
 
 <style scoped>
 .container {
