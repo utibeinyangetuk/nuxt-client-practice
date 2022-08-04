@@ -1,12 +1,17 @@
 <template>
-  <div>
-    <h2>i am route/products/id</h2>
-  </div>
+	<div>
+		<h3>i am product id {{ products }}</h3>
+	</div>
 </template>
 
-<script setup>
-
+<script>
+export default {
+	computed: {
+		products() {
+			return this.$store.getters.getProductsById(this.$route.params.id)
+		},
+	},
+}
 </script>
 
-<style  scoped>
-</style>
+<style scoped></style>

@@ -3,7 +3,8 @@
     <div class="wrapper">
       <h1 class="header">find your fire extinguisher</h1>
       <p class="snippets">
-        {{ data1 }}
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, placeat tempora? Adipisci eos quod, alias quam
+        animi rem provident laudantium tempore totam possimus itaque cum labore! Incidunt excepturi eaque illum!
       </p>
       <button>start looking</button>
     </div>
@@ -12,12 +13,10 @@
 </template>
 
  <script>
-import { mapState } from 'vuex'
+
 
 export default {
-  computed: {
-    ...mapState(['data1', 'data2'])
-  }
+
 }
 </script>
 
