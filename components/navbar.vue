@@ -8,7 +8,9 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+
+</script>
 
 <style scoped>
 .container {
@@ -22,7 +24,7 @@ ul {
 }
 
 ul li::marker {
-  content: "😱";
- font-size: 20px;
+  content: "⌛";
+  font-size: 20px;
 }
 </style>
