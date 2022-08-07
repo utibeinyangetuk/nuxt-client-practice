@@ -1,6 +1,5 @@
 <template>
 	<div v-if="products" class="container">
-		<navbar />
 		<div class="hero-container">
 			<img
 				:src="require(`@/assets/images/${products.image}`)"

@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <navbar />
     <LargeCardDisplay v-for="cardInfo in largeCardInfo.slice(0, 1)" :key="cardInfo.id" :cardsSection="cardInfo" />
     <smallCardDisplay v-for="cardInfo in smallCardInfo" :key="cardInfo.id" :cardsSection="cardInfo" />
   </div>
